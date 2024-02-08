@@ -24,7 +24,7 @@
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
     /*========== Font and typography ==========*/
-    --body-font: 'SF Pro Rounded', sans-serif;
+    --body-font: 'Inter', sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
@@ -159,7 +159,7 @@ img {
 
 /*==================== LAYOUT ====================*/
 .container {
-  max-width: 1025px;
+  max-width: 1050px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
