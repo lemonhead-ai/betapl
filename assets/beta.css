@@ -187,20 +187,19 @@ img {
     background-color: rgba(141, 141, 146, 0.5);
     z-index: 1000;
     padding: 2rem 0 4rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     border-color: blue;
-    backdrop-filter: blur(6.5px);
+    backdrop-filter: blur(4.5px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-  }
-  
-  .header *,
-  .footer * {
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.header *,
+.footer * {
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
-  }
-
+}
 /*==================== NAV ====================*/
 .nav{
     max-width: 968px;
